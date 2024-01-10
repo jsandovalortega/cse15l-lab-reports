@@ -6,9 +6,9 @@
 >Note: add the screenshots pls
 
 # command ```ls```
-1. Share an example of using the command with no arguments. <br /> Using 
-2. Share an example of using the command with a path to a directory as an argument. <br />
-3. Share an example of using the command with a path to a file as an argument. <br />
+1. Share an example of using the command with no arguments. <br /> Using ```ls``` with no arguments displays a list of the folders/directories and files inside of the current working directory. 
+2. Share an example of using the command with a path to a directory as an argument. <br /> Using ```ls``` with a path to a directory as an argument displays the folders/directories and files of the given argument. 
+3. Share an example of using the command with a path to a file as an argument. <br /> Using ```ls``` with a path to a file as an argument just returns the name of the file. 
 
 >Note: add the screenshots pls
 
