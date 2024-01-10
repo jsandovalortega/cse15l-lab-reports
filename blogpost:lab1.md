@@ -16,7 +16,7 @@
 
 ## command ```cat```
 1. Share an example of using the command with no arguments. <br /> Using ```cat``` with no arguments does nothing/traps me inside the terminal. Had to search up how to get otu lol. 
-2. Share an example of using the command with a path to a directory as an argument. <br />
+2. Share an example of using the command with a path to a directory as an argument. <br /> Using ```cat``` with a path to a directory as an argument displays ```cat: messages: Is a directory```.
 3. Share an example of using the command with a path to a file as an argument. <br />
 
 >Note: add the screenshots pls
