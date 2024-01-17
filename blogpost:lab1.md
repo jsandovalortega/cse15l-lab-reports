@@ -7,6 +7,7 @@
 
 ![Image](cdwithoutcommand.png)
 >Caption: This is ```cd``` without an argument.
+
 ![Image](cdwithargument.png)
 >Caption: This is ```cd``` with a directory as an argument. 
 
@@ -19,7 +20,8 @@
 3. Share an example of using the command with a path to a file as an argument. <br /> Using ```ls``` with a path to a file as an argument just returns the name of the file. This is no error. This doesn't change the directory, we are still within ```/lecture1```.
 
 ![Image](lswoandwargument.png)
->Caption: This is ```ls``` without an argument followed by ```ls``` with a directory as an argument. 
+>Caption: This is ```ls``` without an argument followed by ```ls``` with a directory as an argument.
+
 ![Image](lswithfile.png)
 >Caption: This is ```ls``` with a file as an argument. 
 
@@ -30,9 +32,11 @@
 3. Share an example of using the command with a path to a file as an argument. <br /> Using ```cat``` with a path to a file as an argument displays the contents of the file. The directory stays the same, ```/lecture1```.
 
 ![Image](catwithoutarg.png)
->Caption: This is ```cat``` without an argument. 
+>Caption: This is ```cat``` without an argument.
+
 ![Image](catwithdirectory.png)
->Caption: This is ```cat``` with a directory as an argument. 
+>Caption: This is ```cat``` with a directory as an argument.
+
 ![Image](catwithfile.png)
 >Caption: This is ```cat``` with a file as an argument. 
 
