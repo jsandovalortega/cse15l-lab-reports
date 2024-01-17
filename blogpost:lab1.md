@@ -1,16 +1,16 @@
 # Lab Report 1
 
 ## command ```cd```
-1. Share an example of using the command with no arguments <br /> Using ```cd``` as a command with no arguments does not do anything.
-2. Share an example of using the command with a path to a directory as an argument. <br /> Using ```cd``` as a command with a path to a directory changes the directory to the argument given. 
-3. Share an example of using the command with a path to a file as an argument. <br /> Using ```cd``` as a command with a path to a file as an argument causes an error, specifically ```bash: cd: Hello.class: Not a directory```
+1. Share an example of using the command with no arguments <br /> Using ```cd``` as a command with no arguments does not do anything. This was the result since this command changes directories given an argument, however there was no argument. This was not an error The working directory was ```/home```.
+2. Share an example of using the command with a path to a directory as an argument. <br /> Using ```cd``` as a command with a path to a directory changes the directory to the argument given. This is exactly how the command should work and no errors are present. The working directory after the command was ```/lecture1```.
+3. Share an example of using the command with a path to a file as an argument. <br /> Using ```cd``` as a command with a path to a file as an argument causes an error, specifically ```bash: cd: Hello.class: Not a directory```. This error occurred since ```cd``` works specifically with directories. The working directory stayed the same as before ```/lecture```. 
 
 >Note: add the screenshots pls
 
 ## command ```ls```
-1. Share an example of using the command with no arguments. <br /> Using ```ls``` with no arguments displays a list of the folders/directories and files inside of the current working directory. 
-2. Share an example of using the command with a path to a directory as an argument. <br /> Using ```ls``` with a path to a directory as an argument displays the folders/directories and files of the given argument. 
-3. Share an example of using the command with a path to a file as an argument. <br /> Using ```ls``` with a path to a file as an argument just returns the name of the file. 
+1. Share an example of using the command with no arguments. <br /> Using ```ls``` with no arguments displays a list of the folders/directories and files inside of the current working directory. This is no error. The working directory here is ```lecture1```. 
+2. Share an example of using the command with a path to a directory as an argument. <br /> Using ```ls``` with a path to a directory as an argument displays the folders/directories and files of the given argument. Once again not an error. The working directory stays the same, ```/lecture1```. 
+3. Share an example of using the command with a path to a file as an argument. <br /> Using ```ls``` with a path to a file as an argument just returns the name of the file. This is no error. This doesn't change the directory, we are still within ```/lecture1```.
 
 >Note: add the screenshots pls
 
