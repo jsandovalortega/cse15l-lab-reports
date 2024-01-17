@@ -24,8 +24,6 @@
 >Caption: This is ```ls``` with a file as an argument. 
 
 
->Note: add the screenshots pls
-
 ## command ```cat```
 1. Share an example of using the command with no arguments. <br /> Using ```cat``` with no arguments returns what I type. I searched this up and found out it takes in a standard input and writes it to its standard output. This was in the ```/home``` directory. 
 2. Share an example of using the command with a path to a directory as an argument. <br /> Using ```cat``` with a path to a directory as an argument displays ```cat: messages: Is a directory```. This is no error. the working directory is ```/lecture1```
@@ -38,6 +36,4 @@
 ![Image](catwithfile.png)
 >Caption: This is ```cat``` with a file as an argument. 
 
-
->Note: add the screenshots pls
 
