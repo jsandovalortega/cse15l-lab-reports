@@ -1,7 +1,7 @@
 # Lab Report 1
 
 ## command ```cd```
-1. Share an example of using the command with no arguments <br /> Using ```cd``` as a command with no arguments does not do anything. This was the result since this command changes directories given an argument, however there was no argument. This was not an error The working directory was ```/home```.
+1. Share an example of using the command with no arguments <br /> Using ```cd``` as a command with no arguments does not do anything. This was the result since this command changes directories given an argument, however there was no argument. This was not an error. The working directory was ```/home```.
 2. Share an example of using the command with a path to a directory as an argument. <br /> Using ```cd``` as a command with a path to a directory changes the directory to the argument given. This is exactly how the command should work and no errors are present. The working directory after the command was ```/lecture1```.
 3. Share an example of using the command with a path to a file as an argument. <br /> Using ```cd``` as a command with a path to a file as an argument causes an error, specifically ```bash: cd: Hello.class: Not a directory```. This error occurred since ```cd``` works specifically with directories. The working directory stayed the same as before ```/lecture1```. 
 
