@@ -119,3 +119,6 @@ public class ChatServer {
 3. A terminal interaction where you log into your ieng6 account without being asked for a password.
 ![Image](lab2part2screenshot2.png)
 
+# Part Three
+Throughout week 2 and 3 I learned how to ```ssh``` into ```ieng6```. Following the same topic I learned how to make a key so that I no longer have to input my password when logging in. I also learned how to manipulate servers and add queries that to unique things like create a small messaging platform. 
+
