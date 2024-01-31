@@ -1,4 +1,6 @@
-# Code for ChatServer.java
+# Lab Report 2 
+# Part One =)
+## Code for ChatServer.java
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -40,7 +42,7 @@ class NumberChatServer {
     }
 }
 ```
-# Code for NumberChatServer.java
+## Code for NumberChatServer.java
 ```
 // A simple web server using Java's built-in HttpServer
 
@@ -99,4 +101,14 @@ public class ChatServer {
 ```
 # Screenshots showing the implementation of the server
 ![Image](screenshot.png)
+> Methods Called: My code calls on ```public String handleRequest(URI url)```, ```public void handle(final HttpExchange exchange) throws IOException```, and ```start();```
+>Relevant Arguments: ```args[]```, and the given/not given query such as ```/add-message```.
+> How Do Relevant Fields Change? The Field string changed as before this query it was an empty string. After the query was called it now holds two users: ```josesandoval``` & ```ruddy``` and two messages: "hello", "hey", "how are classes going", "how are you doing". 
+
 ![Image](screenshot2.png)
+> Methods Called: My code calls on ```public String handleRequest(URI url)```, ```public void handle(final HttpExchange exchange) throws IOException```, and ```start();```
+>Relevant Arguments: ```args[]```, and the given/not given query such as ```/add-message```.
+> How Do Relevant Fields Change? The Field string changed as before this query it was a string that held the previous messages from the image beforehand. After the query it still holds two users: ```josesandoval``` & ```ruddy``` and four messages: "hello", "hey", "how are classes going", "how are you doing".
+
+
+# Part Two Grrrr
