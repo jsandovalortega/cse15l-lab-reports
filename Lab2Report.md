@@ -97,3 +97,6 @@ public class ChatServer {
 }
 
 ```
+# Screenshots showing the implementation of the server
+![Image](screenshot.png)
+![Image](screenshot2.png)
