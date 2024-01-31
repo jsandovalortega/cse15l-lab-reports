@@ -111,7 +111,7 @@ public class ChatServer {
 > How Do Relevant Fields Change? The Field string changed as before this query it was a string that held the previous messages from the image beforehand. After the query it still holds two users: ```josesandoval``` & ```ruddy``` and four messages: "hello", "hey", "how are classes going", "how are you doing".
 
 
-# Part Two Grrrr
+# Part Two 
 1. The absolute path to the private key for your SSH key for logging into ```ieng6```
 ![Image](redolab2part2screenshot.png)
 2. The absolute path to the public key for your SSH key for logging into ```ieng6```
