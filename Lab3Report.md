@@ -92,5 +92,55 @@ is used to copy the elements to the original array.
 
 ## Part 2 - Researching Commands (boo)
 ### My chosen command will be ```find```
+#### Four Interesting Command Line Options for ```find```
+1. ```find . -iname```
+   This is similar to that of ```find -name``` but now it is case insensitive which would be extremely useful if you don't remember the exact naming of a certain file/directory/etc. The "." makes the computer look in the current working directory which is ```technical/```
+
+    Ex. 1
+   ```
+   (base) josesandoval@Joses-MacBook-Pro technical % find . -iname "GOVERNMENT"
+   ./government
+   ```
+
+   Ex. 2
+   
+   ```
+   (base) josesandoval@Joses-MacBook-Pro technical % find . -iname "BIOmeD"
+   ./biomed
+   ```
+2. ```find . -atime -n``` (With "n" being some number, could be "+" or "-" as well)
+   This allows us to find files that have been access less n days ago. This would be helpful in situations where we do not remember what files we were using it would show what files we
+   have recently accessed and give us an idea of what possible files they were.
+
+   Ex. 1 (There was more than what was included in the code block but I cut it down just to not make this too long :grimacing:)
+   ```
+   (base) josesandoval@Joses-MacBook-Pro technical % find . -atime -1
+   ./government/About_LSC/Progress_report.tx
+   ./government/About_LSC/Strategic_report.txt
+   ./government/About_LSC/Special_report_to_congress.tx
+   ./government/About_LSC/commission_report.tx
+   ./government/About_LSC/ONTARIO_LEGAL_AID_SERIES.tx
+   ./government/About_LSC/State_Planning_Report.tx
+   ./government/Env_Prot_Agen/multi102902.txt
+   ```
+
+   Ex. 2
+   ```
+   (base) josesandoval@Joses-MacBook-Pro technical % find . -atime +1
+   .
+   ./government
+   ./government/About_LSC
+   ./government/About_LSC/LegalServCorp_v_VelazquezSyllabus.txt
+   ./government/About_LSC/Comments_on_semiannual.txt
+   ./government/About_LSC/CONFIG_STANDARDS.txt
+   ./government/About_LSC/LegalServCorp_v_VelazquezDissent.txt
+   ./government/About_LSC/LegalServCorp_v_VelazquezOpinion.txt
+   ./government/About_LSC/diversity_priorities.txt
+   ./government/About_LSC/reporting_system.txt
+   ./government/About_LSC/Protocol_Regarding_Access.txt
+   ```
+   
+
+
 
 
