@@ -1,6 +1,6 @@
 # Lab Report 3 :)
 
-## Part 1 Bugs :/
+## Part 1 Bugs :expressionless:
 ### My chosen bug will be  ```reverseInPlace```
 
 
@@ -90,7 +90,7 @@ FIX: The before implementation of ```reverseInPlace``` reversed up until the hal
 were already changed. My implementation makes use of a temporary array to ensure the reversal of every element. Then another for loop
 is used to copy the elements to the original array. 
 
-## Part 2 - Researching Commands (boo)
+## Part 2 - Researching Commands :grin:
 ### My chosen command will be ```find```
 #### Four Interesting Command Line Options for ```find```
 1. ```find . -iname```
