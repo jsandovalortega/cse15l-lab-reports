@@ -94,7 +94,8 @@ is used to copy the elements to the original array.
 ### My chosen command will be ```find```
 #### Four Interesting Command Line Options for ```find```
 1. ```find . -iname```
-   This is similar to that of ```find -name``` but now it is case insensitive which would be extremely useful if you don't remember the exact naming of a certain file/directory/etc. The "." makes the computer look in the current working directory which is ```technical/```
+
+    This is similar to that of ```find -name``` but now it is case insensitive which would be extremely useful if you don't remember the exact naming of a certain file/directory/etc. The "."        makes the computer look in the current working directory which is ```technical/```
 
     Ex. 1
    ```
@@ -109,6 +110,7 @@ is used to copy the elements to the original array.
    ./biomed
    ```
 2. ```find . -atime -n``` (With "n" being some number, could be "+" or "-" as well)
+
    This allows us to find files that have been access less n days ago. This would be helpful in situations where we do not remember what files we were using it would show what files we
    have recently accessed and give us an idea of what possible files they were.
 
@@ -140,7 +142,52 @@ is used to copy the elements to the original array.
    ./government/About_LSC/Protocol_Regarding_Access.txt
    ```
    
+3. ```find . -type [f|d]```
 
+   This command line option proves useful if you are only looking to work with files or directories. 
+   Ex. 1
+      ```
+      (base) josesandoval@Joses-MacBook-Pro technical % find . -type f
+      ./plos/journal.pbio.0030021.txt
+      ./plos/journal.pbio.0020224.txt
+      ./plos/pmed.0020048.txt
+      ./plos/pmed.0020060.txt
+      ./plos/pmed.0020074.txt
+      ./plos/journal.pbio.0020146.txt
+      ./plos/pmed.0020114.txt
+      ./plos/pmed.0010028.txt
+      ```
+      Ex. 2
+      ```
+      (base) josesandoval@Joses-MacBook-Pro technical % find . -type d
+      .
+      ./government
+      ./government/About_LSC
+      ./government/Env_Prot_Agen
+      ./government/Alcohol_Problems
+      ./government/Gen_Account_Office
+      ./government/Post_Rate_Comm
+      ./government/Media
+      ./plos
+      ./biomed
+      ./911report
+      ```
+
+4. ```find . -maxdepth n -name '<filename>'```
+
+   This gives the arguments limitations into how far(much depth) it should look for the specific file. This would prove useful in cases where you don't want to look throughout your whole computer but
+   rather a smaller section of it.
+
+   Ex. 1
+   ```
+   (base) josesandoval@Joses-MacBook-Pro technical % find . -maxdepth 2 -name About_LSC
+   ./government/About_LSC
+   ```
+   Ex. 2
+   ```
+   (base) josesandoval@Joses-MacBook-Pro technical % find . -maxdepth 2 -name chapter-11.txt
+   ./911report/chapter-11.txt
+   ```
 
 
 
