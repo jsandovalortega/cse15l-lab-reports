@@ -188,6 +188,8 @@ is used to copy the elements to the original array.
    (base) josesandoval@Joses-MacBook-Pro technical % find . -maxdepth 2 -name chapter-11.txt
    ./911report/chapter-11.txt
    ```
-
+> For all my command line options I used the same source\
+> I found out about this source by simply searching up “find command-line options” on [google.com](https://www.google.com/)\
+> Citation: https://www.computerhope.com/unix/ufind.htm
 
 
