@@ -190,6 +190,6 @@ is used to copy the elements to the original array.
    ```
 > For all my command line options I used the same source\
 > I found out about this source by simply searching up “find command-line options” on [google.com](https://www.google.com/)\
-> Citation: [https://www.computerhope.com/unix/ufind.htm](https://www.computerhope.com/unix/ufind.htm)https://www.computerhope.com/unix/ufind.htm
+> Citation: [https://www.computerhope.com/unix/ufind.htm](https://www.computerhope.com/unix/ufind.htm)
 
 
