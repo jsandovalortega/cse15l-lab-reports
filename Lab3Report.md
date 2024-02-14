@@ -1,6 +1,6 @@
 # Lab Report 3 :)
 
-## Part 1 Bugs :expressionless:
+## Part 1 Bugs 😑
 ### My chosen bug will be  ```reverseInPlace```
 
 
@@ -90,7 +90,7 @@ FIX: The before implementation of ```reverseInPlace``` reversed up until the hal
 were already changed. My implementation makes use of a temporary array to ensure the reversal of every element. Then another for loop
 is used to copy the elements to the original array. 
 
-## Part 2 - Researching Commands :grin:
+## Part 2 - Researching Commands 😁
 ### My chosen command will be ```find```
 #### Four Interesting Command Line Options for ```find```
 1. ```find . -iname```
@@ -114,7 +114,7 @@ is used to copy the elements to the original array.
    This allows us to find files that have been access less n days ago. This would be helpful in situations where we do not remember what files we were using it would show what files we
    have recently accessed and give us an idea of what possible files they were.
 
-   Ex. 1 (There was more than what was included in the code block but I cut it down just to not make this too long :grimacing:)
+   Ex. 1 (There was more than what was included in the code block but I cut it down just to not make this too long 😬)
    ```
    (base) josesandoval@Joses-MacBook-Pro technical % find . -atime -1
    ./government/About_LSC/Progress_report.tx
