@@ -10,7 +10,7 @@ Description: I typed this command out to log into the ieng6 server
 
 ### Clone your fork of the repository from your Github account (using the SSH URL)
 
-![Image](gitcloneusingssh.png)
+![Image](usesshtogetlab7.png)
 
 Keys Pressed: ``` <git clone> <command + v> ```\
 Description: In order to clone my fork I used the command ```git clone``` and pasted the ssh from GitHub. 
@@ -26,7 +26,12 @@ Description: Found the run and compile commands and pasted them to the terminal.
 Keys Pressed: ```<10w<10w><dw><i><ListExamplesTests><esc><:wq>```\
 Description: I jumped forward by using ```<10w>```. Then I deleted the word that was the wrong file name using ```<dw>```. 
 Then I used ```<i>``` to insert the right filename. Then I went back to normal mode using ```<esc>```. Then I used ```<:wq>```
-to save my changes. 
+to save my changes.\
+
+![Image](vimfixlistexamples.png)
+Keys Pressed: ```<j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><x><i><2><esc><:wq>```\
+Description: Used ```<j>``` to scroll down all the way until the second while loop. I then used ```<x>``` to delete the bug. Then I used
+```<i>``` and ```<2>``` to fix the bug. Finally I used ```<esc><:wq>``` to go back to normal mode, exit, and save my changes. 
 
 
 
