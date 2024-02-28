@@ -1,5 +1,4 @@
-# Lab 4 yay :(
-## Using vim
+# Lab 4 Report - Vim
 
 ### Log into ieng6
 
@@ -32,6 +31,14 @@ to save my changes.\
 Keys Pressed: ```<j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><x><i><2><esc><:wq>```\
 Description: Used ```<j>``` to scroll down all the way until the second while loop. I then used ```<x>``` to delete the bug. Then I used
 ```<i>``` and ```<2>``` to fix the bug. Finally I used ```<esc><:wq>``` to go back to normal mode, exit, and save my changes. 
+
+### Run the tests, demonstrating that they now succeed
+![Image](fixedbugs.png)
+Keys Pressed: ```<up><up><up><enter>```\
+Description: I needed to run the tests again so I went up 3 times to find the ```<bash test.sh>``` command. 
+
+### Commit and push the resulting change to your Github account (you can pick any commit message!)
+![Image](committing.png)
 
 
 
