@@ -1,6 +1,6 @@
 # Lab 5 Report 🙂
 ## Part 1 😆
-### Design a debugging scenario, and write your report as a conversation on EdStem :bowtie:
+### Design a debugging scenario, and write your report as a conversation on EdStem 😨
 
 1. The original post from a student with a screenshot showing a symptom and a description of a guess at the bug/some sense of what the failure-inducing input is. (Don't actually make the post! Just write the content that would go in such a post) 😱
 ![Image](OriginalEdStemPost.png)
