@@ -52,7 +52,7 @@ list-example-grader
 
   >Description: Ok update I've tried the ```pwd``` thing to see where my program is at different steps. I've confirmed that I am in my grading area. So this brings me back to my original thought about the lib directory. Reviewing my CPATH variable and knowing what it represents helped me understand this bug a lot more. My bug was within my second part of the ```CPATH```. Since the first part of it was successfully going through to the lib directory and retrieving the necessary files to test the code, I assumed the same for the second path within it. However, this was an incorrect assumption and the path was not retrieving what I thought it would have.  
 
-## Part 2 🤬
+## Part 2 🤒
 #### In a couple of sentences, describe something you learned from your lab experience in the second half of this quarter that you didn't know before:
 I thoroughly enjoyed learning about debugging with jdb command as it is so helpful when understanding what is actually going on in the program. I've implemented this in my other classes like CSE12 for debugging larger programs. Learning the commands that go with it such as ```step```, ```run```, and especially ```stop at``` are super helpful. Breakpoints before a certain infinite loop have helped me program much smoother. 
 
