@@ -15,6 +15,9 @@
 >Description: The bug I've found is that my ```CPATH``` variable had the wrong path. The path that was there previously did not find the correct file. From where it was called directory ```grading-area``` there is no ```lib``` directory so that call wasn't reaching the ```junit-4.13.2.jar``` which is essential for the testing. The reason I did not notice this at first since the first path is correct and did reach the file needed for testing. 
 
 4. At the end, all the information needed about the setup including:
+
+- The file & directory structure needed
+
 ```
 File & Directory Structure
 
@@ -36,15 +39,21 @@ list-example-grader
 ->TestListExamples.java
 ```
 
-- The file & directory structure needed
+- The contents of each file before fixing the bug
+
 
   ![Image](GradingScript.png)
 
-- The contents of each file before fixing the bug
+- The full command line (or lines) you ran to trigger the bug
 
   ![Image](ErrorsForGradingScript.png)
 
-- The full command line (or lines) you ran to trigger the bug
+- A description of what to edit to fix the bug
 
   >Description: Ok update I've tried the ```pwd``` thing to see where my program is at different steps. I've confirmed that I am in my grading area. So this brings me back to my original thought about the lib directory. Reviewing my CPATH variable and knowing what it represents helped me understand this bug a lot more. My bug was within my second part of the ```CPATH```. Since the first part of it was successfully going through to the lib directory and retrieving the necessary files to test the code, I assumed the same for the second path within it. However, this was an incorrect assumption and the path was not retrieving what I thought it would have.  
-- A description of what to edit to fix the bug
+
+## Part 2
+#### In a couple of sentences, describe something you learned from your lab experience in the second half of this quarter that you didn't know before:
+I thoroughly enjoyed learning about debugging with jdb command as it is so helpful when understanding what is actually going on in the program. I've implemented this in my other classes like CSE12 for debugging larger programs. Learning the commands that go with it such as ```step```, ```run```, and especially ```stop at``` are super helpful. Breakpoints before a certain infinite loop have helped me program much smoother. 
+
+
