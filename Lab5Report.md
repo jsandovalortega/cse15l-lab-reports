@@ -4,16 +4,21 @@
 
 1. The original post from a student with a screenshot showing a symptom and a description of a guess at the bug/some sense of what the failure-inducing input is. (Don't actually make the post! Just write the content that would go in such a post) 😱
 ![Image](OriginalEdStemPost.png)
+
 #### *Images From EdStem Post:*
 ![Image](GradingScript.png)
 ![Image](ErrorsForGradingScript.png)
+
+---
 2. A response from a TA asking a leading question or suggesting a command to try (To be clear, you are mimicking a TA here.) 🤕
 ![Image](TAanswer.png)
 
+---
 3. Another screenshot/terminal output showing what information the student got from trying that, and a clear description of what the bug is. 😠
 ![Image](UsingPWD.png)
 >Description: The bug I've found is that my ```CPATH``` variable had the wrong path. The path that was there previously did not find the correct file. From where it was called directory ```grading-area``` there is no ```lib``` directory so that call wasn't reaching the ```junit-4.13.2.jar``` which is essential for the testing. The reason I did not notice this at first since the first path is correct and did reach the file needed for testing. 
 
+---
 4. At the end, all the information needed about the setup including 😧
 
 - The file & directory structure needed
